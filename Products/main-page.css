@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-page-sec-1 {
+  background: #fcc68c;
+  height: 80vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  img {
+    width: 30%;
+  }
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  width: 40%;
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-weight: bold;
+  font-size: large;
+}
+.bio-seaech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 3vh;
+}
+.shop-name {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.bio {
+  text-align: center;
+  width: 40%;
+  font-weight: 300;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 6vh;
+  border: 1px solid white;
+  margin: 1%;
+  padding: 3px;
+  background: white;
+  border-radius: 5px;
+}
+.search button {
+  width: 20%;
+  height: 6vh;
+  background: white;
+  border-style: none;
+  button:hover {
+    background: rgb(130, 130, 130);
+  }
+}
+.search input {
+  width: 79%;
+  height: 6vh;
+  border-style: none;
+}
+.trend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+  font-size: 1.7em;
+}
+.container {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: start;   
+  /* align-items: start; */
+  /* border: 1px solid red; */
+
+}
+.card {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  /* border: 1px solid rgb(0, 0, 0); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  gap: 2vh;
+}
+.productName {
+  font-size: 1em;
+}
+.image {
+  width: 50%;
+  height: 50%;
+}

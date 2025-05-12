@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./regester.css" />
+  </head>
+  <body>
+    <section class="main-page-sec-1">
+      <nav>
+        <div class="logo">
+          <img src="../images/logo.png" alt="" />
+        </div>
+      </nav>
+      <div class="bio-seaech">
+        <p class="shop-name">
+          <span style="color: rgb(5, 67, 58)">Style</span>Point
+        </p>
+      </div>
+      <section class="sign-in-sec">
+        <div class="sign-in-sec-left">
+          <div class="form-container">
+            <p class="Sign-in-title">Register</p>
+            <form class="signin-form">
+              <div class="inputs">
+                <!-- full name -->
+                <div class="input-feilds">
+                  <label for="fullName">Full Name:</label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    placeholder="first and last name"
+                  />
+                  <span class="span" id="fullName-span"
+                    >Please enter your first and last name as it appears on
+                    official documents.</span
+                  >
+                </div>
+                <!-- user name -->
+                <div class="input-feilds">
+                  <label for="username">User Name:</label>
+                  <input type="text" id="username" placeholder="user_1" />
+                  <span class="span" id="username-span"
+                    >Your unique username for logging in.</span
+                  >
+                </div>
+                <!-- Email -->
+                <div class="input-feilds">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="timeline@gmail.com"
+                  />
+                  <span class="span" id="email-span"
+                    >We'll never share your email with anyone else.</span
+                  >
+                </div>
+                <!-- password -->
+                <div class="input-feilds">
+                  <label for="pass">Password:</label>
+                  <input type="password" id="pass" placeholder="**********" />
+                  <span class="span" id="pass-span"
+                    >Use at least 8 characters, including a number.</span
+                  >
+                </div>
+                <!-- confirm pass -->
+                <div class="input-feilds">
+                  <label for="conPass">Confirm Password:</label>
+                  <input
+                    type="password"
+                    id="conPass"
+                    placeholder="**********"
+                  />
+                  <span class="span" id="conPass-span"
+                    >Make sure both passwords match.</span
+                  >
+                </div>
+                <!-- submit button -->
+                <div class="input-btn">
+                  <a href="">
+                    <button  class="sign-in-btn btn">Sign In</button>
+                  </a>
+                </div>
+                <div class="input-feilds">
+                  <p class="have-account">
+                    Already have account? <a href="../logIn/log-in.html"> press here</a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="./register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-page-sec-1 {
+  background: #fcc68c;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  img {
+    width: 7%;
+  }
+}
+.bio-seaech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 3vh;
+}
+.shop-name {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.bio {
+  text-align: center;
+  width: 40%;
+  font-weight: 300;
+}
+a{
+    text-decoration: none;  
+}
+.join{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3vw;
+}
+.btn{
+    width: 7vw;
+    height: 7vh;
+    font-size: 1em;
+    border-radius: 5px;
+    border-style: none;
+    background: rgb(5, 67, 58);
+    color: white;
+}
