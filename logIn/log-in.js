@@ -19,18 +19,18 @@ document.addEventListener("DOMContentLoaded", function () {
     let isValid = true;
 
     if (!username) {
-      usernameSpan.textContent = 'Username is required';
-      usernameSpan.style.color = 'red';
+      usernameSpan.textContent = "Username is required";
+      usernameSpan.style.color = "red";
       isValid = false;
     }
 
     if (!password) {
-      passwordSpan.textContent = 'Password is required';
-      passwordSpan.style.color = 'red';
+      passwordSpan.textContent = "Password is required";
+      passwordSpan.style.color = "red";
       isValid = false;
     } else if (password.length < 6) {
-      passwordSpan.textContent = 'Password must be at least 6 characters';
-      passwordSpan.style.color = 'red';
+      passwordSpan.textContent = "Password must be at least 6 characters";
+      passwordSpan.style.color = "red";
       isValid = false;
     }
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const storedUsername = localStorage.getItem("username");
     const storedPassword = localStorage.getItem("password");
 
-    if (username === storedUsername && password === storedPassword) {
+    if (username == storedUsername && password == storedPassword) {
       alert(`Welcome ${storedFullName}`);
       window.location.href = "../Products/main-page.html";
     } else {
